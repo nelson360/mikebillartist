@@ -1,8 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HeaderComponent from '/src/components/HeaderComponent.vue'
-//import AboutComponent from '/src/AboutComponent.vue'
-//import QualificationComponent from '/src/QualificationComponent.vue'
-//import ContactComponent from '/src/ContactComponent.vue'
 import AdminComponent from '/src/MyAdmin/AdminComponent.vue'
 import BloggComponent from '/src/components/BloggComponent.vue'
 import ScheduleComponent from '/src/components/ScheduleComponent.vue'

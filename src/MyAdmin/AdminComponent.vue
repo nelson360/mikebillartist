@@ -1,6 +1,6 @@
 <template>
 <p>
-    pray for paris
+    pray for paris.
 </p>
 </template>
 

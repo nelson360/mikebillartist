@@ -8,3 +8,7 @@
         name:'AboutComponent',
     }
 </script>
+<style>
+
+
+</style>

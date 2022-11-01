@@ -1,5 +1,6 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+  
+  <img alt="Vue logo" src="/pictures/mikeBill3.png" class="firstimage">
  
   <HeaderComponent/>
   <BodyComponent/>
@@ -21,5 +22,11 @@ export default {
 </script>
 
 <style>
+
+.firstimage{
+  float:left;
+  width:100px;
+  margin:0 10px;
+}
 
 </style>
