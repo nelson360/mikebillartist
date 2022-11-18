@@ -33,9 +33,10 @@ label {
 }
 
 .ttt {
+    background-image:url('/public/pictures/mikeBill2.png');
     font-size: 1rem;
     padding: 0.5em 2em;
 }
 
-background-image:url('/public/pictures/mikeBill2.png');
+
 </style>

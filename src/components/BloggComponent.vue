@@ -1,8 +1,9 @@
 <template>
-    <p>
-        blogg
-    </p>
+<p>
+    blogg
+</p>
 </template>
+
 <script>
-    
+
 </script>

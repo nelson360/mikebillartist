@@ -1,14 +1,15 @@
 <template>
-    <p>
-        about template
-    </p>
+<p>
+    about template
+</p>
 </template>
-<script>
-    export default{
-        name:'AboutComponent',
-    }
-</script>
-<style>
 
+<script>
+export default {
+    name: 'AboutComponent',
+}
+</script>
+
+<style>
 
 </style>

@@ -13,7 +13,7 @@ export default {
 
 <style scoped>
 p {
-  
+
     font-size: large;
     font-weight: bolder;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

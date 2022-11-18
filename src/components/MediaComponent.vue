@@ -57,6 +57,7 @@
     height: 70vh;
     width: 60vw;
 }
+
 .firstimage2 {
     border: 2px;
     border-radius: 15%;

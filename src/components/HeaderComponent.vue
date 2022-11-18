@@ -1,12 +1,24 @@
 <template>
 <nav>
     <ul>
-        <li><router-link to="/App">Home</router-link></li>
-        <li><router-link to="/BloggComponent">Blog</router-link></li>
-        <li><router-link to="/MediaComponent">Media</router-link></li>
-        <li><router-link to="/ContactComponent">Contact</router-link></li>
-        <li><router-link to="/AboutComponent">About</router-link></li>
-        <li><router-link to="/ScheduleComponent">schedule</router-link></li>
+        <li>
+            <router-link to="/App">Home</router-link>
+        </li>
+        <li>
+            <router-link to="/BloggComponent">Blog</router-link>
+        </li>
+        <li>
+            <router-link to="/MediaComponent">Media</router-link>
+        </li>
+        <li>
+            <router-link to="/ContactComponent">Contact</router-link>
+        </li>
+        <li>
+            <router-link to="/AboutComponent">About</router-link>
+        </li>
+        <li>
+            <router-link to="/ScheduleComponent">schedule</router-link>
+        </li>
         <RouterView />
     </ul>
 </nav>
@@ -21,7 +33,7 @@ export default {
 
 <style>
 nav {
-    
+
     width: 100%;
     line-height: 1.4em;
 }
@@ -39,7 +51,7 @@ ul {
 
 ul:after {
     content: "";
-    
+
     color: rgb(20, 182, 33);
     display: inline-block;
     width: 100%;
@@ -56,7 +68,7 @@ li {
     padding: auto;
     font: size 25px;
     font-style: normal;
-    color:rgb(20, 182, 33); 
+    color: rgb(20, 182, 33);
     text-decoration: none;
 
 }
@@ -77,10 +89,9 @@ html {
 body {
     color: rgb(228, 147, 41);
     margin-bottom: 60px;
-    background-image:url('/public/pictures/mikeBill5.png') ;
-    background-size:cover ;
-    background-repeat :no-repeat;
+    background-image: url('/public/pictures/mikeBill5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     /* Margin bottom by footer height */
 }
-
 </style>
